@@ -78,6 +78,10 @@ The default `--until=today` is intentional — without it, "yesterday" silently 
 - "Yesterday" is calendar-day, not work-session-day. Burnouts who commit at 3am may want `--since=yesterday`.
 - Multi-repo only — no GitHub PR/issue activity (yet).
 
+## Examples
+
+Step-by-step walkthroughs with real input fixtures and the helper's actual output live in [`examples/`](./examples/README.md). Three or four scenarios per plugin — from the happy path to the edge cases the test suite guards.
+
 ## Part of the pluginpool family
 
 Ten focused Claude Code plugins for everyday productivity:
