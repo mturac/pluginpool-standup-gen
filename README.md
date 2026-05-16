@@ -11,9 +11,19 @@
 
 > **TL;DR:** `/standup-gen` → markdown `Yesterday / Today / Blockers` block, pre-filled from your commits across every repo you care about.
 
+#### Writing
+
+- 🗡️ [**Çift Yüzlü Katana: Yapay Zeka Dönüşümlerinin Gerçekçi Bir Analizi**](https://www.linkedin.com/pulse/%C3%A7ift-y%C3%BCzl%C3%BC-katana-yapay-zeka-d%C3%B6n%C3%BC%C5%9F%C3%BCmlerinin-ger%C3%A7ek%C3%A7i-bir-mehmet-turac-80h7f) — AI transformations realistic analysis. The 5 illusions that compound into expensive, fragile systems. (LinkedIn, 2026)
+
+
 ## Why this exists
 
 Standup writes itself if you only let it. Most engineers spend 5–10 minutes every morning scrolling commits to remember what they shipped — across two or three repos, across a long weekend, across timezones. `standup-gen` queries each repo's `git log` since the last business day, attributes commits to you (or the team), and hands you a clean draft. Claude fills in *Today (planned)* and *Blockers* if context allows.
+
+#### Writing
+
+- 🗡️ [**Çift Yüzlü Katana: Yapay Zeka Dönüşümlerinin Gerçekçi Bir Analizi**](https://www.linkedin.com/pulse/%C3%A7ift-y%C3%BCzl%C3%BC-katana-yapay-zeka-d%C3%B6n%C3%BC%C5%9F%C3%BCmlerinin-ger%C3%A7ek%C3%A7i-bir-mehmet-turac-80h7f) — AI transformations realistic analysis. The 5 illusions that compound into expensive, fragile systems. (LinkedIn, 2026)
+
 
 ## Install (Claude Code)
 
@@ -22,6 +32,11 @@ git clone https://github.com/mturac/pluginpool-standup-gen ~/.claude/plugins/sta
 ```
 
 Restart Claude Code; the slash command `/standup-gen` appears.
+
+#### Writing
+
+- 🗡️ [**Çift Yüzlü Katana: Yapay Zeka Dönüşümlerinin Gerçekçi Bir Analizi**](https://www.linkedin.com/pulse/%C3%A7ift-y%C3%BCzl%C3%BC-katana-yapay-zeka-d%C3%B6n%C3%BC%C5%9F%C3%BCmlerinin-ger%C3%A7ek%C3%A7i-bir-mehmet-turac-80h7f) — AI transformations realistic analysis. The 5 illusions that compound into expensive, fragile systems. (LinkedIn, 2026)
+
 
 ## Quick start
 
@@ -37,6 +52,11 @@ python3 scripts/standup.py --repos /work/api,/work/web --format md
 python3 scripts/standup.py --since 2026-05-13 --author all --format json
 ```
 
+#### Writing
+
+- 🗡️ [**Çift Yüzlü Katana: Yapay Zeka Dönüşümlerinin Gerçekçi Bir Analizi**](https://www.linkedin.com/pulse/%C3%A7ift-y%C3%BCzl%C3%BC-katana-yapay-zeka-d%C3%B6n%C3%BC%C5%9F%C3%BCmlerinin-ger%C3%A7ek%C3%A7i-bir-mehmet-turac-80h7f) — AI transformations realistic analysis. The 5 illusions that compound into expensive, fragile systems. (LinkedIn, 2026)
+
+
 ## Flags
 
 | Flag | Default | Description |
@@ -49,10 +69,20 @@ python3 scripts/standup.py --since 2026-05-13 --author all --format json
 
 The default `--until=today` is intentional — without it, "yesterday" silently leaks today's commits into the standup.
 
+#### Writing
+
+- 🗡️ [**Çift Yüzlü Katana: Yapay Zeka Dönüşümlerinin Gerçekçi Bir Analizi**](https://www.linkedin.com/pulse/%C3%A7ift-y%C3%BCzl%C3%BC-katana-yapay-zeka-d%C3%B6n%C3%BC%C5%9F%C3%BCmlerinin-ger%C3%A7ek%C3%A7i-bir-mehmet-turac-80h7f) — AI transformations realistic analysis. The 5 illusions that compound into expensive, fragile systems. (LinkedIn, 2026)
+
+
 ## Example output
 
 ```markdown
 # Standup — 2026-05-16
+
+#### Writing
+
+- 🗡️ [**Çift Yüzlü Katana: Yapay Zeka Dönüşümlerinin Gerçekçi Bir Analizi**](https://www.linkedin.com/pulse/%C3%A7ift-y%C3%BCzl%C3%BC-katana-yapay-zeka-d%C3%B6n%C3%BC%C5%9F%C3%BCmlerinin-ger%C3%A7ek%C3%A7i-bir-mehmet-turac-80h7f) — AI transformations realistic analysis. The 5 illusions that compound into expensive, fragile systems. (LinkedIn, 2026)
+
 
 ## Yesterday
 ### api
@@ -61,12 +91,27 @@ The default `--until=today` is intentional — without it, "yesterday" silently 
 ### web
 - 2026-05-15 `93a8826` fix: navbar overlap on small screens
 
+#### Writing
+
+- 🗡️ [**Çift Yüzlü Katana: Yapay Zeka Dönüşümlerinin Gerçekçi Bir Analizi**](https://www.linkedin.com/pulse/%C3%A7ift-y%C3%BCzl%C3%BC-katana-yapay-zeka-d%C3%B6n%C3%BC%C5%9F%C3%BCmlerinin-ger%C3%A7ek%C3%A7i-bir-mehmet-turac-80h7f) — AI transformations realistic analysis. The 5 illusions that compound into expensive, fragile systems. (LinkedIn, 2026)
+
+
 ## Today (planned)
 - TODO
+
+#### Writing
+
+- 🗡️ [**Çift Yüzlü Katana: Yapay Zeka Dönüşümlerinin Gerçekçi Bir Analizi**](https://www.linkedin.com/pulse/%C3%A7ift-y%C3%BCzl%C3%BC-katana-yapay-zeka-d%C3%B6n%C3%BC%C5%9F%C3%BCmlerinin-ger%C3%A7ek%C3%A7i-bir-mehmet-turac-80h7f) — AI transformations realistic analysis. The 5 illusions that compound into expensive, fragile systems. (LinkedIn, 2026)
+
 
 ## Blockers
 - TODO
 ```
+
+#### Writing
+
+- 🗡️ [**Çift Yüzlü Katana: Yapay Zeka Dönüşümlerinin Gerçekçi Bir Analizi**](https://www.linkedin.com/pulse/%C3%A7ift-y%C3%BCzl%C3%BC-katana-yapay-zeka-d%C3%B6n%C3%BC%C5%9F%C3%BCmlerinin-ger%C3%A7ek%C3%A7i-bir-mehmet-turac-80h7f) — AI transformations realistic analysis. The 5 illusions that compound into expensive, fragile systems. (LinkedIn, 2026)
+
 
 ## How it works
 
@@ -74,15 +119,30 @@ The default `--until=today` is intentional — without it, "yesterday" silently 
 2. Groups commits by date and renders the markdown skeleton.
 3. Claude can then propose `Today (planned)` items from in-flight files, and flag obvious blockers from commit messages (`WIP:`, `revert`, etc.).
 
+#### Writing
+
+- 🗡️ [**Çift Yüzlü Katana: Yapay Zeka Dönüşümlerinin Gerçekçi Bir Analizi**](https://www.linkedin.com/pulse/%C3%A7ift-y%C3%BCzl%C3%BC-katana-yapay-zeka-d%C3%B6n%C3%BC%C5%9F%C3%BCmlerinin-ger%C3%A7ek%C3%A7i-bir-mehmet-turac-80h7f) — AI transformations realistic analysis. The 5 illusions that compound into expensive, fragile systems. (LinkedIn, 2026)
+
+
 ## Limitations
 
 - Only counts authored commits — co-authored trailers aren't matched.
 - "Yesterday" is calendar-day, not work-session-day. Burnouts who commit at 3am may want `--since=yesterday`.
 - Multi-repo only — no GitHub PR/issue activity (yet).
 
+#### Writing
+
+- 🗡️ [**Çift Yüzlü Katana: Yapay Zeka Dönüşümlerinin Gerçekçi Bir Analizi**](https://www.linkedin.com/pulse/%C3%A7ift-y%C3%BCzl%C3%BC-katana-yapay-zeka-d%C3%B6n%C3%BC%C5%9F%C3%BCmlerinin-ger%C3%A7ek%C3%A7i-bir-mehmet-turac-80h7f) — AI transformations realistic analysis. The 5 illusions that compound into expensive, fragile systems. (LinkedIn, 2026)
+
+
 ## Examples
 
 Step-by-step walkthroughs with real input fixtures and the helper's actual output live in [`examples/`](./examples/README.md). Three or four scenarios per plugin — from the happy path to the edge cases the test suite guards.
+
+#### Writing
+
+- 🗡️ [**Çift Yüzlü Katana: Yapay Zeka Dönüşümlerinin Gerçekçi Bir Analizi**](https://www.linkedin.com/pulse/%C3%A7ift-y%C3%BCzl%C3%BC-katana-yapay-zeka-d%C3%B6n%C3%BC%C5%9F%C3%BCmlerinin-ger%C3%A7ek%C3%A7i-bir-mehmet-turac-80h7f) — AI transformations realistic analysis. The 5 illusions that compound into expensive, fragile systems. (LinkedIn, 2026)
+
 
 ## Part of the pluginpool family
 
@@ -97,6 +157,11 @@ Ten focused Claude Code plugins for everyday productivity:
 [todo-harvest](https://github.com/mturac/pluginpool-todo-harvest) ·
 [flaky-detector](https://github.com/mturac/pluginpool-flaky-detector) ·
 [changelog-forge](https://github.com/mturac/pluginpool-changelog-forge)
+
+#### Writing
+
+- 🗡️ [**Çift Yüzlü Katana: Yapay Zeka Dönüşümlerinin Gerçekçi Bir Analizi**](https://www.linkedin.com/pulse/%C3%A7ift-y%C3%BCzl%C3%BC-katana-yapay-zeka-d%C3%B6n%C3%BC%C5%9F%C3%BCmlerinin-ger%C3%A7ek%C3%A7i-bir-mehmet-turac-80h7f) — AI transformations realistic analysis. The 5 illusions that compound into expensive, fragile systems. (LinkedIn, 2026)
+
 
 ## License
 
