@@ -1,3 +1,5 @@
+![hero](./assets/hero.svg)
+
 # standup-gen
 
 **Skip the "what did I do yesterday?" tax. Generate the answer from git.**
